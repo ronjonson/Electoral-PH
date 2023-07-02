@@ -1,0 +1,13 @@
+{% extends "electoral/layout.html" %}
+
+{% block body %}
+    <h1>Philippines</h1>
+
+    <svg width="1000", height="1000">
+        <g transform="scale(6)">
+        {% for province, map in provinces %}
+            <path id="{{ province }}" d="{{ map }}" stroke="black" stroke-width="0.3" fill="{% cycle '#58E5FF' '#C558FF' '#FF7258' '#92FF58' %}" />
+        {% endfor %}
+        </g>
+    </svg>
+{% endblock %}
