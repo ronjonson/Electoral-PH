@@ -1,2 +1,7 @@
-PH_Electoral.xlsx
-test.ipynb
+data/PH_Electoral.xlsx
+data/test.ipynb
+personal/electoral/management/commands/__pycache__/add_data.cpython-39.pyc
+personal/electoral/management/commands/__pycache__/closepoll.cpython-39.pyc
+personal/electoral/management/commands/__pycache__/hello.cpython-39.pyc
+personal/personal/__pycache__/settings.cpython-39.pyc
+personal/personal/__pycache__/settings.cpython-39.pyc
