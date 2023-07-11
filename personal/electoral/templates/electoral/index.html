@@ -1,13 +1,28 @@
 {% extends "electoral/layout.html" %}
 
 {% block body %}
-    <h1>Philippines</h1>
-
-    <svg width="1000", height="1000">
-        <g transform="scale(6)">
-        {% for province, map in provinces %}
-            <path id="{{ province }}" d="{{ map }}" stroke="black" stroke-width="0.3" fill="{% cycle '#58E5FF' '#C558FF' '#FF7258' '#92FF58' %}" />
-        {% endfor %}
-        </g>
-    </svg>
+<div class="container">
+    <div class="row-md fs-2 fw-bold">Philippine Electoral College</div>
+    <div class="row-md ">This website shows a representative map and results of the Philippines during each Presidential and Vice-Presidential Election if it adopted the US Electoral College</div>
+    <div class="row-md ">Each year is divided into the Presidential and Vice-Presidential Elections.</div>
+    <br>
+    <div class="row-md fs-4 fw-bold">How the Electoral College Works</div>
+    <div class="row-md">The Electoral College is the system used in the United States of America to elect their President</div>
+    <div class="row-md">According <a href="https://www.usa.gov/electoral-college">usa.gov's</a> page on the electoral college</div>
+    <div class="row-md">the President and Vice-President are elected through electors. Each state gets as many electors as it has members of congress</div>
+    <div class="row-md">The winner of the popular vote for each state gets all the electors assigned to it.</div>
+    <div class="row-md">For Example, if the winner of a certain state wins the popular vote by 40%, they will still get 100% of the electors for that certain state</div>
+    <div class="row-md">To win the electoral college, you have to win at least 50% of the number of electors</div><br>
+    <div class="row-md">In the Philippines, the number of representatives changes year by year, so the number of electors will change too</div>
+    <div class="row-md">In this case, I have assumed that each Province and Independent City each get their own electors which amount to the number of Representatives they send to the Batasang Pambansa</div>
+    <div class="row-md">I have also only counted the district representatives and not party list representatives as they dont representate any specific locale</div>
+    <div class="row-md">The Senate has also been disregarded in the counting due to the fact that the Senate does not represent any specific area</div>
+    <div class="row-md">Independent cities and Highly Urbanized Cities, (who have their own representatives) are administered separately from the province they are found in and therefore considered a separate 'state' in this map</div>
+    <div class="row-md">Some Independent cities do not have their own representatives (such as Angeles City) and therefore were not separated from their province in this case</div>
+</div>
+<br><br><br><br>
+<div class="container">
+    <div class="row">The election data has all come from wikipedia, if anyone knows where to find the official election data for each year let me know!</div>
+    <div class="row">Using this page to practice my skills so its the layout is still a little funky </div>
+</div>
 {% endblock %}

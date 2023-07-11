@@ -1,0 +1,84 @@
+{% extends "electoral/layout.html" %}
+{% load electoral_extras %}
+{% block body %}
+    <div class="container text-center">
+        <h1>{{year}} Presidential Election</h1>
+    </div>
+
+    <div class="container-md">
+        <div class="row">
+            <div class="col text-end p-3" style="background-color: {{ranked.0.color}}; color:white">
+                <div class="row">
+                    <span class="fs-4 fw-semibold">{{ranked.0.candidate}}</span>
+                </div>
+                <div class="row">
+                    <span class="fs-1 fw-bold">
+                        {{ranked.0.points}}
+                    </span>
+                </div>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li>Votes</li>
+                        <li>{{ranked.0.votes}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col text-start p-3" style="background-color:{{ranked.1.color}}; color:black">
+                <div class="row">
+                    <span class="fs-4 fw-semibold">{{ranked.1.candidate}}</span>
+                </div>
+                <div class="row">
+                    <span class="fs-1 fw-bold">
+                        {{ranked.1.points}}
+                    </span>
+                </div>
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li>Votes</li>
+                        <li>{{ranked.1.votes}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="height:12px;"></div>
+        <div class="row">
+            <div style="width:{{ranked.0.percentage}}%; background-color: {{ranked.0.color}}; height:12px; float:left;"></div>
+            <div style="width:{{ranked.1.percentage}}%; background-color: {{ranked.1.color}}; height:12px; float:right;"></div>
+        </div>
+
+        <div class="row p-3 text-center">
+            <div class="col text-center fs-4">
+                {{winning_electoral_points}} to Win
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            {% for rank in ranked|slice:"2:"%}
+            <div class="col">
+                <div class="row" style="border-left:solid {{rank.color}} 7px;">
+                    <span><b>{{ rank.points }}</b> {{rank.candidate}} || {{rank.votes}} Votes</span>
+                </div>
+            </div>
+            {% endfor %}
+    </div>
+    </div>
+
+    
+    <div class="container-md text-center">
+        <svg width="700px", height="800px">
+            <g transform="scale(5)">
+                <path id="Metro Manila" d="M 80.1 58.8 L 80.5 59.5 V 60 L 80.9 59.7 V 58.9 L 81.4 58.3 L 81.5 56 L 79.7 56.8 L 80.3 58 Z" stroke="black" stroke-width="0.3" styl="cursor: pointer;"/>
+                <path id="Box" d="M 3.1 2.9 H 45.8 V 69.7 H 3.1 Z" stroke="black"  stroke-width="0.5" fill="white" />
+                <path id="Connector" d="M 45.9 2.8 L 81.7 56.1 M 46 69.8 L 81.5 60.1" stroke="black"  stroke-width="0.5"/>
+
+            {% for map in maps %}
+                {% for key, value in map.items %}
+                    <path data-bs-toggle="popover" data-bs-title="<div class='container'><div class='row fs-5 fw-bold text-end'>{{ key }}</div><div class='row'>{{electors|lookup:key}} electoral votes</div></div>" data-bs-trigger="focus" tabindex="0" data-bs-content="{% with ranked_votes|lookup:key as results%}<div class='container'>{% for result in results %}<div class='row'><div class='col' style='border-left:solid {{colors|lookup:result.0}} 7px;'>{{result.0}}</div><div class='col text-end'>{{result.1}}</div></div>{% endfor %}</div>{% endwith %}" id="{{ key }}" winner="{{value.candidate}}" d="{{ value.svg }}" stroke="black" stroke-width="0.3" fill="{{ value.color }}" />
+                {% endfor %}
+            {% endfor %}
+            </g>
+        </svg>
+    </div>
+
+{% endblock %}
