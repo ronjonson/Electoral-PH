@@ -6,6 +6,7 @@
     float:left;
 }
 
-.popover{
-    max-width:500px;
-}
+ .popover {
+    width: 350px;
+    max-width:500px !important;
+ }

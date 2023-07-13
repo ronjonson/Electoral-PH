@@ -59,7 +59,7 @@
             {% for rank in ranked|slice:"2:"%}
             <div class="col">
                 <div class="row" style="border-left:solid {{rank.color}} 7px;">
-                    <span><b>{{ rank.points }}</b> {{rank.candidate}} || {{rank.votes}} Votes</span>
+                    <span><b>{{ rank.points }}</b> {{candidates|lookup:rank.candidate}} || {{rank.votes}} Votes</span>
                 </div>
             </div>
             {% endfor %}
@@ -76,11 +76,21 @@
 
             {% for map in maps %}
                 {% for key, value in map.items %}
-                    <path data-bs-toggle="popover" data-bs-title="<div class='container'><div class='row fs-5 fw-bold text-end'>{{ key }}</div><div class='row'>{{electors|lookup:key}} electoral votes</div></div>" data-bs-trigger="focus" tabindex="0" data-bs-content="{% with ranked_votes|lookup:key as results%}<div class='container'>{% for result in results %}<div class='row'><div class='col' style='border-left:solid {{colors|lookup:result.0}} 7px;'>{{result.0}}</div><div class='col text-end'>{{result.1}}</div></div>{% endfor %}</div>{% endwith %}" id="{{ key }}" winner="{{value.candidate}}" d="{{ value.svg }}" stroke="black" stroke-width="0.3" fill="{{ value.color }}" />
+                    <path data-bs-container="body" data-bs-toggle="popover" data-bs-title="<div class='container'><div class='row fs-5 fw-bold text-end'>{{ key }}</div><div class='row'>{{electors|lookup:key}} electoral votes</div></div>" data-bs-trigger="focus" tabindex="0" data-bs-content="{% with ranked_votes|lookup:key as results%}<div class='container'>{% for result in results %}<div class='row'><div class='col' style='border-left:solid {{colors|lookup:result.0}} 7px;'>{{candidates|lookup:result.0}}</div><div class='col text-end'>{{result.1}}</div></div>{% endfor %}</div>{% endwith %}" id="{{ key }}" winner="{{value.candidate}}" d="{{ value.svg }}" stroke="black" stroke-width="0.3" fill="{{ value.color }}" />
                 {% endfor %}
             {% endfor %}
             </g>
         </svg>
     </div>
 
+{% endblock %}
+
+{% block script %}
+    <script>
+        var popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        var popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl,{
+            sanitize: false,
+            html: true,
+        }))
+    </script>
 {% endblock %}
