@@ -104,8 +104,6 @@ def result_Pres_2022(request):
     year = 2022
     position = 'Pres'
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
-    print(ranked_votes)
-    print("hello")
     return render(request, "electoral/election.html", {
         'year': year,
         'maps': maps,

@@ -26,11 +26,26 @@ def get_total(candidate,position,year):
     obj = eval(f'{position}_{year}.objects')
     return obj.aggregate(Sum(candidate))[f'{candidate}__sum']
     
+
+def closest(K, lst = [0, 0.25, 0.5, 0.75]):
+    return lst[min(range(len(lst)), key = lambda i: abs(lst[i]-K))]
+
+def get_percentages(points):
+    total = sum(points.values())
+    percentages = {}
+    
+    for key, value in points.items():
+        percentages.update({
+                    key: round((value/total)*100)
+        })
+
+    return percentages
+        
 def total_to_dict(candidate_list, year, position, points, percentages, colors):
     totals = []
     for candidate in candidate_list:
         totals.append({
-            'candidate': Candidate.objects.filter(candidate=candidate).values_list('full_name')[0][0],
+            'candidate': candidate,
             'votes': f"{get_total(candidate, position, year):,}",
             'points': points[candidate],
             'percentage': percentages[candidate],
@@ -38,18 +53,6 @@ def total_to_dict(candidate_list, year, position, points, percentages, colors):
         })
 
     return totals
-
-def get_percentages(points):
-    total = sum(points.values())
-    percentages = {}
-
-    for key, value in points.items():
-        percentages.update({
-            key: (value/total)*100
-        })
-    
-    return percentages
-        
 
 def get_winner(model, year):
     qs = eval(f'{model}.objects.all()')

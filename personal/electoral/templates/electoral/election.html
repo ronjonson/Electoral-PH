@@ -7,9 +7,9 @@
 
     <div class="container-md">
         <div class="row">
-            <div class="col text-end p-3" style="background-color: {{ranked.0.color}}; color:white">
+            <div class="col text-end p-3" style="background-color: {{colors|lookup:ranked.0.candidate}}; color:white">
                 <div class="row">
-                    <span class="fs-4 fw-semibold">{{ranked.0.candidate}}</span>
+                    <span class="fs-4 fw-semibold">{{candidates|lookup:ranked.0.candidate}}</span>
                 </div>
                 <div class="row">
                     <span class="fs-1 fw-bold">
@@ -23,9 +23,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col text-start p-3" style="background-color:{{ranked.1.color}}; color:black">
+            <div class="col text-start p-3" style="background-color:{{colors|lookup:ranked.1.candidate}}; color:black">
                 <div class="row">
-                    <span class="fs-4 fw-semibold">{{ranked.1.candidate}}</span>
+                    <span class="fs-4 fw-semibold">{{candidates|lookup:ranked.1.candidate}}</span>
                 </div>
                 <div class="row">
                     <span class="fs-1 fw-bold">
@@ -40,20 +40,22 @@
                 </div>
             </div>
         </div>
-        <div class="row" style="height:12px;"></div>
-        <div class="row">
-            <div style="width:{{ranked.0.percentage}}%; background-color: {{ranked.0.color}}; height:12px; float:left;"></div>
-            <div style="width:{{ranked.1.percentage}}%; background-color: {{ranked.1.color}}; height:12px; float:right;"></div>
+        <div class="row bar"></div>
+        <div class="row-md">
+            <div class="bar graph" style="width:{{ranked.0.percentage}}%; background-color: {{ranked.0.color}};"></div>
+            {% for rank in ranked|slice:"1:" reversed %}
+                <div class="bar graph" style="width:{{rank.percentage}}%; background-color: {{rank.color}};"></div>
+            {% endfor %}
         </div>
 
         <div class="row p-3 text-center">
             <div class="col text-center fs-4">
                 {{winning_electoral_points}} to Win
+            </div>
         </div>
     </div>
-
     <div class="container">
-        <div class="row">
+        <div class="row" >
             {% for rank in ranked|slice:"2:"%}
             <div class="col">
                 <div class="row" style="border-left:solid {{rank.color}} 7px;">
@@ -61,7 +63,7 @@
                 </div>
             </div>
             {% endfor %}
-    </div>
+        </div>
     </div>
 
     
