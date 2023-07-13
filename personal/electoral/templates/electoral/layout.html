@@ -13,44 +13,45 @@
             <div class="container-fluid">
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'index' %}">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="2004" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         2004
                         </a>
-                        <ul class="dropdown-menu">
+                        <ul class="dropdown-menu" aria-labelledby="2004">
                             <li><a class="dropdown-item" href="{% url 'Pres_2004' %}">President</a></li>
                         </ul>
-                        </li>
-                    <li>
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="2010" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         2010
-                    </a>
-                        <ul class="dropdown-menu">
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="2010">
                             <li><a class="dropdown-item" href="{% url 'Pres_2010' %}">President</a></li>
                             <li><a class="dropdown-item" href="{% url 'VicePres_2010' %}">Vice-President</a></li>
                         </ul>
-                  </li>
-                  <li>
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        2016
-                    </a>
+                    </li>                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            2016
+                        </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{% url 'Pres_2016' %}">President</a></li>
                             <li><a class="dropdown-item" href="{% url 'VicePres_2016' %}">Vice-President</a></li>
                         </ul>
-                  </li>
-                  <li>
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        2022
-                    </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            2022
+                        </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{% url 'Pres_2022' %}">President</a></li>
                             <li><a class="dropdown-item" href="{% url 'VicePres_2022' %}">Vice-President</a></li>
                         </ul>
-                  </li>
+                    </li>
+                </ul>
               </div>
             </div>
           </nav>
