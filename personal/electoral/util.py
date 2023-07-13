@@ -40,16 +40,24 @@ def get_percentages(points):
         })
 
     return percentages
-        
-def total_to_dict(candidate_list, year, position, points, percentages, colors):
+
+def total_to_dict(candidate_list, year, position, points, percentages):
     totals = []
+    votes = []
+    #calculate first the overall totall votes
     for candidate in candidate_list:
+        votes.append(get_total(candidate, position, year))
+    
+    total_votes = sum(votes) #get all votes for that year
+
+    #add to dict
+    for i, candidate in enumerate(candidate_list):
         totals.append({
             'candidate': candidate,
-            'votes': f"{get_total(candidate, position, year):,}",
+            'votes': f"{votes[i]:,}",
             'points': points[candidate],
-            'percentage': percentages[candidate],
-            'color': colors[candidate]
+            'percentage': percentages[candidate], #percentage of electoral votes
+            'vote_percentage': round(votes[i]/total_votes*100, 2)
         })
 
     return totals
@@ -124,7 +132,7 @@ def get_all_data(year, position):
     ranked = sorted(points, key=points.get, reverse=True)
 
     #get all info for the thing on top of the map whatever thats called
-    ranked_totals = total_to_dict(ranked, year, position, points, percentages, colors)
+    ranked_totals = total_to_dict(ranked, year, position, points, percentages)
 
     #get information per province (votes per candidate per province) for the tooltip
     ranked_votes = get_province_info(year, position)
