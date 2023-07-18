@@ -51,11 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-<<<<<<<< HEAD:results/results/settings.py
 ROOT_URLCONF = "results.urls"
-========
-ROOT_URLCONF = "electoral.urls"
->>>>>>>> 078ccd3e7244a36c19106e4559875cd53b8a67fc:electoral/electoral/settings.py
 
 TEMPLATES = [
     {
@@ -73,12 +69,7 @@ TEMPLATES = [
     },
 ]
 
-<<<<<<<< HEAD:results/results/settings.py
 WSGI_APPLICATION = "results.wsgi.application"
-========
-WSGI_APPLICATION = "electoral.wsgi.application"
->>>>>>>> 078ccd3e7244a36c19106e4559875cd53b8a67fc:electoral/electoral/settings.py
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
