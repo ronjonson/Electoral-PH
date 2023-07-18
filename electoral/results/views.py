@@ -4,13 +4,13 @@ from django.http import HttpResponse
 from . import util
 
 def index(request):
-    return render(request, "electoral/index.html")
+    return render(request, "results/index.html")
 
 def result_2004(request):
 
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(2004, 'Pres')
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': 2004,
         'maps': maps,
         'points': points,
@@ -30,7 +30,7 @@ def result_Pres_2010(request):
 
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
@@ -50,7 +50,7 @@ def result_VicePres_2010(request):
 
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
@@ -68,7 +68,7 @@ def result_Pres_2016(request):
     position = 'Pres'
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
@@ -87,7 +87,7 @@ def result_VicePres_2016(request):
     position = 'VicePres'
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
@@ -104,7 +104,7 @@ def result_Pres_2022(request):
     year = 2022
     position = 'Pres'
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
@@ -121,7 +121,7 @@ def result_VicePres_2022(request):
     position = 'VicePres'
     maps, points, ranked_totals,total_electoral_points, winning_electoral_points, ranked_votes, colors, candidates, electors = util.get_all_data(year, position)
 
-    return render(request, "electoral/election.html", {
+    return render(request, "results/election.html", {
         'year': year,
         'maps': maps,
         'points': points,
