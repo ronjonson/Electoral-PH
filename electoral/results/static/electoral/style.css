@@ -1,0 +1,11 @@
+.bar{
+    height: 12px;
+}
+
+.graph{
+    float:left;
+}
+
+.dropdown{
+    position: relative;
+}
