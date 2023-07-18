@@ -1,19 +1,5 @@
-data/PH_Electoral.xlsx
-data/test.ipynb
-personal/electoral/management/commands/__pycache__/add_data.cpython-39.pyc
-personal/electoral/management/commands/__pycache__/closepoll.cpython-39.pyc
-personal/electoral/management/commands/__pycache__/hello.cpython-39.pyc
-personal/personal/__pycache__/settings.cpython-39.pyc
-personal/personal/__pycache__/settings.cpython-39.pyc
-personal/electoral/migrations/0010_remove_flight_destination_remove_flight_origin_and_more.py
-personal/electoral/migrations/__pycache__/0010_remove_flight_destination_remove_flight_origin_and_more.cpython-39.pyc
-<<<<<<< HEAD
+data
+.conda
 results/electoral/__pycache__
 results/electoral/migrations
-results/results/__pycache__
-=======
-personal/electoral/migrations
-personal/electoral/commands/__pycache__
-personal/personal/__pycache__
-personal/electoral/management/commands/__pycache__/test.cpython-39.pyc
->>>>>>> 078ccd3e7244a36c19106e4559875cd53b8a67fc
+results/electoral/tempatetags/__pycache
