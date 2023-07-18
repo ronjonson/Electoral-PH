@@ -6,7 +6,11 @@
     float:left;
 }
 
- .popover {
+.dropdown{
+    position: relative;
+}
+
+.popover {
     width: 300px !important;
     max-width:500px !important;
  }
