@@ -24,8 +24,7 @@
                 <div class="row">
                     <ul class="list-unstyled">
                         <li>Votes</li>
-                        <li class="lead">{{ranked.0.votes}}</li>
-                        <li class="lead fw-bold">{{ranked.0.vote_percentage}}%</li>
+                        <li>{{ranked.0.votes}}</li>
                     </ul>
                 </div>
             </div>
@@ -41,17 +40,16 @@
                 <div class="row">
                     <ul class="list-unstyled">
                         <li>Votes</li>
-                        <li class="lead">{{ranked.1.votes}}</li>
-                        <li class="lead fw-bold">{{ranked.1.vote_percentage}}%</li>
+                        <li>{{ranked.1.votes}}</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="row bar"></div>
         <div class="row-md">
-            <div class="bar graph" style="width:{{ranked.0.percentage}}%; background-color: {{colors|lookup:ranked.0.candidate}};"></div>
+            <div class="bar graph" style="width:{{ranked.0.percentage}}%; background-color: {{ranked.0.color}};"></div>
             {% for rank in ranked|slice:"1:" reversed %}
-                <div class="bar graph" style="width:{{rank.percentage}}%; background-color: {{colors|lookup:rank.candidate}};"></div>
+                <div class="bar graph" style="width:{{rank.percentage}}%; background-color: {{rank.color}};"></div>
             {% endfor %}
         </div>
 
@@ -65,7 +63,7 @@
         <div class="row" >
             {% for rank in ranked|slice:"2:"%}
             <div class="col">
-                <div class="row" style="border-left:solid {{colors|lookup:rank.candidate}} 7px;">
+                <div class="row" style="border-left:solid {{rank.color}} 7px;">
                     <span><b>{{ rank.points }}</b> {{candidates|lookup:rank.candidate}} || {{rank.votes}} Votes</span>
                 </div>
             </div>
