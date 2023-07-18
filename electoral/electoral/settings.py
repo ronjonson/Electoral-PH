@@ -51,7 +51,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "personal.urls"
+ROOT_URLCONF = "electoral.urls"
 
 TEMPLATES = [
     {
@@ -69,7 +69,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "personal.wsgi.application"
+WSGI_APPLICATION = "electoral.wsgi.application"
 
 
 # Database
