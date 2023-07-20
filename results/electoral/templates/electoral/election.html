@@ -81,7 +81,7 @@
 
             {% for map in maps %}
                 {% for key, value in map.items %}
-                    <path data-bs-container="body" data-bs-toggle="popover" data-bs-title="<div class='container'><div class='row fs-5 fw-bold text-end'>{{ key }}</div><div class='row'>{{electors|lookup:key}} electoral votes</div></div>" data-bs-trigger="focus" tabindex="0" data-bs-content="{% with ranked_votes|lookup:key as results%}<div class='container'>{% for result in results %}<div class='row'><div class='col-lg-auto' style='border-left:solid {{colors|lookup:result.0}} 7px;'>{{candidates|lookup:result.0}}</div><div class='col text-end'>{{result.1}}</div></div>{% endfor %}</div>{% endwith %}" id="{{ key }}" winner="{{value.candidate}}" d="{{ value.svg }}" stroke="black" stroke-width="0.3" fill="{{ value.color }}" />
+                    <path data-bs-container="body" data-bs-toggle="popover" data-bs-title="<div class='container'><div class='row fs-5 fw-bold text-end'>{{ key }}</div><div class='row'>{{electors|lookup:key}} electoral votes</div></div>" data-bs-trigger="focus" tabindex="0" data-bs-content="{% with ranked_votes|lookup:key as results%}<div class='container'>{% for result in results %}<div class='row'><div class='col-lg-auto' style='border-left:solid {{colors|lookup:result.0}} 7px;'>{{candidates|lookup:result.0}}</div><div class='col text-end'>{{result.1}}</div></div>{% endfor %}</div>{% endwith %}" id="{{ key }}" winner="{{value.candidate}}" d="{{ value.svg }}" stroke="black" stroke-width="0.3" fill="{{ colors|lookup:value.candidate }}" />
                 {% endfor %}
             {% endfor %}
             </g>

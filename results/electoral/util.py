@@ -95,13 +95,12 @@ def get_province_info(year, position):
     return ranked_votes
 
 
-def zip_up(winners, colors, provinces):
+def zip_up(winners, provinces):
     map = []
     for key, value in winners.items():
         province = {
             key: {
                 'candidate': value,
-                'color': colors[value],
                 'svg': provinces[key]
             }
         }
@@ -132,7 +131,7 @@ def get_all_data(year, position):
     total_electoral_points = sum(points.values())
 
     # get all info for the map
-    maps = zip_up(winners, colors, provinces)
+    maps = zip_up(winners, provinces)
 
     return maps, points, ranked_totals,total_electoral_points, total_electoral_points//2, ranked_votes, colors, candidates, electors
 
