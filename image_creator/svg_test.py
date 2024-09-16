@@ -8,7 +8,7 @@ import pandas as pd
 
 
 class Point:
-    def __init__(self, p:List[float], movement:str=None):
+    def __init__(self, p:List[float]=None, movement:str=None):
         if isinstance(p,list):
             if len(p) == 2:
                 self.p1 = float(p[0])
@@ -16,7 +16,10 @@ class Point:
             elif len(p) == 1:
                 self.p1 = float(p[0])
         else:
-            self.p1 = float(p)
+            try:
+                self.p1 = float(p)
+            except:
+                print(f"No point inputted for movement:{movement}")
         
 
         self.movement=movement
@@ -35,15 +38,17 @@ class Point:
         except:
             return f"{cls}(p1={self.p1}, movement={self.movement})"
 
-    def create_line(self, path,stroke_width):
+    def create_line(self, path, size):
         if self.movement == 'M':
-            path.M(self.p1,self.p2)
+            return path.M(self.p1*size,self.p2*size)
         elif self.movement == 'L':
-            path.L(self.p1,self.p2)
+            return path.L(self.p1*size,self.p2*size)
         elif self.movement == 'V':
-            path.V(self.p1)
+            return path.V(self.p1*size)
         elif self.movement == 'H':
-            path.H(self.p1)
+            return path.H(self.p1*size)
+        elif self.movement == 'Z':
+            return path.Z()
 
 
 class Shape:
@@ -54,10 +59,13 @@ class Shape:
         self.fill = fill
         self.group = dw.Group(fill=fill)
 
-    def create_shape(self):
+    def create_shape(self, size):
         for point in self.points:
-            point.create_line(self.path)
+            self.path = point.create_line(self.path, size=size)
+
         self.group.append(self.path)
+        
+        return self.group
 
     def __str__(self):
         return "\n".join(str(point) for point in self.points)
@@ -68,14 +76,18 @@ class Shape:
 
 
 class Map:
-    def __init__(self, shapes:Shape=None, map_name='map',width=300, height=300):
+    def __init__(self, shapes:Shape=None, map_name='map',width=300, height=300, origin='center', size=None):
         self.shapes = [shapes] if not isinstance(shapes,list) else shapes
-        self.map = dw.Drawing(width=width, height=height)
+        self.map = dw.Drawing(width=width, height=height, origin=origin)
         self.map_name = map_name
+        self.size = size
 
-    def create_map(self):
+    def create_map(self, size=1):
+        if self.size is not None:
+            size = self.size
+        
         for shape in self.shapes:
-            self.map.append(shape.create_shape())
+            self.map.append(shape.create_shape(size=size))
 
     def save_map(self, file_name:str=None, file_path=None ):
         self.map
@@ -109,7 +121,9 @@ def process_points(data):
 
     if current_movement is not None:
         if current_movement != 'Z':
-            points.append(Point(current_points,current_points))
+            points.append(Point(current_points,current_movement))
+        else:
+            points.append(Point(movement=current_movement))
 
     return points
 
@@ -131,21 +145,24 @@ def process_shapes(data:List[list]):
 
     return shapes
 
-def create_map(data):
+def process_map(data, width=300, height=300, origin='center', size_factor=None):
     instructions = process_instructions(data)
     shapes = process_shapes(instructions)
-    map_shape = Map(shapes=shapes)
+    map_shape = Map(shapes=shapes, width=width, height=height, origin=origin, size=size_factor)
     return map_shape
 
 if __name__ == '__main__':
     with open (r'C:\Users\Neil\Documents\Projects\Electoral-PH\Electoral-PH\image_creator\static\provinces.json') as file:
-        province = json.load(file)
+        provinces = json.load(file)
 
-    bcd = province['Bacolod'].strip()
-    print(bcd)
-    """test = bcd[0:6]
-    print(test)
-    test.append('Z')
+    data = []
+    for key, value in provinces.items():
+        province = value.strip()
+        #print(province)
+        province = province.split(" ")
+        data.extend(province)
 
-    a = create_map(test)
-    a.create_map()"""
+    #print(data)
+    a = process_map(data, width=1000, height=1500, size_factor=3)
+    a.create_map()
+    a.save_map(file_name='image_creator/testing.svg')
