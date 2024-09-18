@@ -52,9 +52,9 @@ class Point:
 
 
 class Shape:
-    def __init__(self, points:Point=None, path=None,stroke='black', fill='none'):
+    def __init__(self, points:Point=None, path=None,stroke='black', fill='none', stroke_width=1):
         self.points = [points] if not isinstance(points,list) else points
-        self.path = path if path is not None else dw.Path(stroke=stroke)
+        self.path = path if path is not None else dw.Path(stroke=stroke, stroke_width=stroke_width)
         self.stroke = stroke
         self.fill = fill
         self.group = dw.Group(fill=fill)
@@ -138,7 +138,7 @@ def process_instructions(data: List[str]):
     return result
 
 
-def process_shapes(data:List[list]):
+def process_shapes(data:List[list], color=None):
     shapes = []
     for shape in data:
         shapes.append(Shape(process_points(shape)))
