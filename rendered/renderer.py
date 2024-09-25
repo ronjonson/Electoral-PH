@@ -54,7 +54,16 @@ class HTMLText(BaseRenderer):
         super().__init__(content={'text':text}, **kwargs)
 
     def render(self):
-        return template("text.html").render(content = self.content, **self.kwargs)
+        return template("text.html").render(**self.content, **self.kwargs)
+
+class HTMLDiv(BaseRenderer):
+    def __init__(self, div_class, content, **kwargs):
+        self.div_class = div_class
+        content = [content] if isinstance(content,list) else content
+        super().__init__(content=content,**kwargs)
+
+    def render(self):
+        return template("div").render(content=self.content, **self.kwargs)
 
 class HTMLPage(BaseRenderer):
     """Renders the base report"""
