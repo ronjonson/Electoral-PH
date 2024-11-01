@@ -1,0 +1,7 @@
+<svg width="{{width}}" height="{{height}}" class="{{svg_class}}">
+    <g>
+    {% for path in paths %}
+        <path d="{{path}}" stroke="{{stroke}}" stroke-width="{{stroke_width}}" fill="{fill}"/>
+    {% endfor %}
+    </g>
+</svg>

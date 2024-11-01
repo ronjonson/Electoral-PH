@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="400" height="1200" viewBox="-200.0 -600.0 400 1200" font-family="Helvetica">
+<defs>
+<g id="Abra" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Abra</text>
+</g>
+<g id="Albay" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Albay</text>
+</g>
+<g id="Apayao" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Apayao</text>
+</g>
+<g id="Aurora" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Aurora</text>
+</g>
+<g id="Baguio" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Baguio</text>
+</g>
+<g id="Bataan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Bataan</text>
+</g>
+<g id="Batanes" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Batanes</text>
+</g>
+<g id="Batangas" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Batangas</text>
+</g>
+<g id="Benguet" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Benguet</text>
+</g>
+<g id="Bukidnon" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Bukidnon</text>
+</g>
+<g id="Bulacan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Bulacan</text>
+</g>
+<g id="Cagayan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Cagayan</text>
+</g>
+<g id="Caloocan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Caloocan</text>
+</g>
+<g id="Camarines Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Camarines</tspan><tspan x="0" dy="1em">Norte</tspan></text>
+</g>
+<g id="Camarines Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Camarines</tspan><tspan x="0" dy="1em">Sur</tspan></text>
+</g>
+<g id="Catanduanes" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="30" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Catanduanes</text>
+</g>
+<g id="Cavite" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">8</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Cavite</text>
+</g>
+<g id="Ifugao" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Ifugao</text>
+</g>
+<g id="Ilocos Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Ilocos</tspan><tspan x="0" dy="1em">Norte</tspan></text>
+</g>
+<g id="Ilocos Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Ilocos Sur</text>
+</g>
+<g id="Isabela" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Isabela</text>
+</g>
+<g id="Kalinga" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Kalinga</text>
+</g>
+<g id="La Union" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">La Union</text>
+</g>
+<g id="Laguna" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">7</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Laguna</text>
+</g>
+<g id="Las Piñas" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Las Piñas</text>
+</g>
+<g id="Makati" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Makati</text>
+</g>
+<g id="Malabon" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Malabon</text>
+</g>
+<g id="Mandaluyong" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="30" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Mandaluyong</text>
+</g>
+<g id="Manila" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Manila</text>
+</g>
+<g id="Marikina" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Marikina</text>
+</g>
+<g id="Marinduque" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Marinduque</text>
+</g>
+<g id="Masbate" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Masbate</text>
+</g>
+<g id="Mountain Province" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Mountain</tspan><tspan x="0" dy="1em">Province</tspan></text>
+</g>
+<g id="Muntinlupa" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Muntinlupa</text>
+</g>
+<g id="Navotas" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Navotas</text>
+</g>
+<g id="Nueva Ecija" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Nueva</tspan><tspan x="0" dy="1em">Ecija</tspan></text>
+</g>
+<g id="Nueva Vizcaya" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Nueva</tspan><tspan x="0" dy="1em">Vizcaya</tspan></text>
+</g>
+<g id="Occidental Mindoro" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Occidental</tspan><tspan x="0" dy="1em">Mindoro</tspan></text>
+</g>
+<g id="Oriental Mindoro" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Oriental</tspan><tspan x="0" dy="1em">Mindoro</tspan></text>
+</g>
+<g id="Palawan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Palawan</text>
+</g>
+<g id="Pampanga" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Pampanga</text>
+</g>
+<g id="Pangasinan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Pangasinan</text>
+</g>
+<g id="Parañaque" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Parañaque</text>
+</g>
+<g id="Pasay" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Pasay</text>
+</g>
+<g id="Pasig" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Pasig</text>
+</g>
+<g id="Quezon" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">4</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Quezon</text>
+</g>
+<g id="Quezon City" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Quezon</tspan><tspan x="0" dy="1em">City</tspan></text>
+</g>
+<g id="Quirino" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Quirino</text>
+</g>
+<g id="Rizal" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Rizal</text>
+</g>
+<g id="Romblon" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Romblon</text>
+</g>
+<g id="San Juan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">San Juan</text>
+</g>
+<g id="Sorsogon" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#FE18A3" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Sorsogon</text>
+</g>
+<g id="Taguig–Pateros" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Taguig–Pat</tspan><tspan x="0" dy="1em">eros</tspan></text>
+</g>
+<g id="Tarlac" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Tarlac</text>
+</g>
+<g id="Valenzuela" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Valenzuela</text>
+</g>
+<g id="Zambales" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#0D5F31" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Zambales</text>
+</g>
+</defs>
+<g transform="scale(0.42857142857142855)">
+<use xlink:href="#Abra" x="-300.0" y="-1300.0" />
+<use xlink:href="#Albay" x="-100.0" y="-1300.0" />
+<use xlink:href="#Apayao" x="100.0" y="-1300.0" />
+<use xlink:href="#Aurora" x="300.0" y="-1300.0" />
+<use xlink:href="#Baguio" x="-300.0" y="-1100.0" />
+<use xlink:href="#Bataan" x="-100.0" y="-1100.0" />
+<use xlink:href="#Batanes" x="100.0" y="-1100.0" />
+<use xlink:href="#Batangas" x="300.0" y="-1100.0" />
+<use xlink:href="#Benguet" x="-300.0" y="-900.0" />
+<use xlink:href="#Bukidnon" x="-100.0" y="-900.0" />
+<use xlink:href="#Bulacan" x="100.0" y="-900.0" />
+<use xlink:href="#Cagayan" x="300.0" y="-900.0" />
+<use xlink:href="#Caloocan" x="-300.0" y="-700.0" />
+<use xlink:href="#Camarines Norte" x="-100.0" y="-700.0" />
+<use xlink:href="#Camarines Sur" x="100.0" y="-700.0" />
+<use xlink:href="#Catanduanes" x="300.0" y="-700.0" />
+<use xlink:href="#Cavite" x="-300.0" y="-500.0" />
+<use xlink:href="#Ifugao" x="-100.0" y="-500.0" />
+<use xlink:href="#Ilocos Norte" x="100.0" y="-500.0" />
+<use xlink:href="#Ilocos Sur" x="300.0" y="-500.0" />
+<use xlink:href="#Isabela" x="-300.0" y="-300.0" />
+<use xlink:href="#Kalinga" x="-100.0" y="-300.0" />
+<use xlink:href="#La Union" x="100.0" y="-300.0" />
+<use xlink:href="#Laguna" x="300.0" y="-300.0" />
+<use xlink:href="#Las Piñas" x="-300.0" y="-100.0" />
+<use xlink:href="#Makati" x="-100.0" y="-100.0" />
+<use xlink:href="#Malabon" x="100.0" y="-100.0" />
+<use xlink:href="#Mandaluyong" x="300.0" y="-100.0" />
+<use xlink:href="#Manila" x="-300.0" y="100.0" />
+<use xlink:href="#Marikina" x="-100.0" y="100.0" />
+<use xlink:href="#Marinduque" x="100.0" y="100.0" />
+<use xlink:href="#Masbate" x="300.0" y="100.0" />
+<use xlink:href="#Mountain Province" x="-300.0" y="300.0" />
+<use xlink:href="#Muntinlupa" x="-100.0" y="300.0" />
+<use xlink:href="#Navotas" x="100.0" y="300.0" />
+<use xlink:href="#Nueva Ecija" x="300.0" y="300.0" />
+<use xlink:href="#Nueva Vizcaya" x="-300.0" y="500.0" />
+<use xlink:href="#Occidental Mindoro" x="-100.0" y="500.0" />
+<use xlink:href="#Oriental Mindoro" x="100.0" y="500.0" />
+<use xlink:href="#Palawan" x="300.0" y="500.0" />
+<use xlink:href="#Pampanga" x="-300.0" y="700.0" />
+<use xlink:href="#Pangasinan" x="-100.0" y="700.0" />
+<use xlink:href="#Parañaque" x="100.0" y="700.0" />
+<use xlink:href="#Pasay" x="300.0" y="700.0" />
+<use xlink:href="#Pasig" x="-300.0" y="900.0" />
+<use xlink:href="#Quezon" x="-100.0" y="900.0" />
+<use xlink:href="#Quezon City" x="100.0" y="900.0" />
+<use xlink:href="#Quirino" x="300.0" y="900.0" />
+<use xlink:href="#Rizal" x="-300.0" y="1100.0" />
+<use xlink:href="#Romblon" x="-100.0" y="1100.0" />
+<use xlink:href="#San Juan" x="100.0" y="1100.0" />
+<use xlink:href="#Sorsogon" x="300.0" y="1100.0" />
+<use xlink:href="#Taguig–Pateros" x="-300.0" y="1300.0" />
+<use xlink:href="#Tarlac" x="-100.0" y="1300.0" />
+<use xlink:href="#Valenzuela" x="100.0" y="1300.0" />
+<use xlink:href="#Zambales" x="300.0" y="1300.0" />
+</g>
+</svg>

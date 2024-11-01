@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="200" height="1000" viewBox="-100.0 -500.0 200 1000" font-family="Helvetica">
+<defs>
+<g id="Aklan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Aklan</text>
+</g>
+<g id="Antique" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Antique</text>
+</g>
+<g id="Bacolod" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Bacolod</text>
+</g>
+<g id="Biliran" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#98FB98" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Biliran</text>
+</g>
+<g id="Bohol" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Bohol</text>
+</g>
+<g id="Capiz" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Capiz</text>
+</g>
+<g id="Cebu" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Cebu</text>
+</g>
+<g id="Cebu City" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Cebu City</text>
+</g>
+<g id="Eastern Samar" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Eastern</tspan><tspan x="0" dy="1em">Samar</tspan></text>
+</g>
+<g id="Guimaras" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Guimaras</text>
+</g>
+<g id="Iloilo" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Iloilo</text>
+</g>
+<g id="Iloilo City" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Iloilo</tspan><tspan x="0" dy="1em">City</tspan></text>
+</g>
+<g id="Lapu-Lapu" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Lapu-Lapu</text>
+</g>
+<g id="Leyte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">5</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Leyte</text>
+</g>
+<g id="Negros Occidental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">6</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Negros</tspan><tspan x="0" dy="1em">Occidental</tspan></text>
+</g>
+<g id="Negros Oriental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Negros</tspan><tspan x="0" dy="1em">Oriental</tspan></text>
+</g>
+<g id="Northern Samar" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Northern</tspan><tspan x="0" dy="1em">Samar</tspan></text>
+</g>
+<g id="Samar" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Samar</text>
+</g>
+<g id="Siquijor" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle" dominant-baseline="central">Siquijor</text>
+</g>
+<g id="Southern Leyte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#F0E68C" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" text-anchor="middle"><tspan x="0" dy="0.0em">Southern</tspan><tspan x="0" dy="1em">Leyte</tspan></text>
+</g>
+</defs>
+<g transform="scale(0.5)">
+<use xlink:href="#Aklan" x="-100.0" y="-900.0" />
+<use xlink:href="#Antique" x="100.0" y="-900.0" />
+<use xlink:href="#Bacolod" x="-100.0" y="-700.0" />
+<use xlink:href="#Biliran" x="100.0" y="-700.0" />
+<use xlink:href="#Bohol" x="-100.0" y="-500.0" />
+<use xlink:href="#Capiz" x="100.0" y="-500.0" />
+<use xlink:href="#Cebu" x="-100.0" y="-300.0" />
+<use xlink:href="#Cebu City" x="100.0" y="-300.0" />
+<use xlink:href="#Eastern Samar" x="-100.0" y="-100.0" />
+<use xlink:href="#Guimaras" x="100.0" y="-100.0" />
+<use xlink:href="#Iloilo" x="-100.0" y="100.0" />
+<use xlink:href="#Iloilo City" x="100.0" y="100.0" />
+<use xlink:href="#Lapu-Lapu" x="-100.0" y="300.0" />
+<use xlink:href="#Leyte" x="100.0" y="300.0" />
+<use xlink:href="#Negros Occidental" x="-100.0" y="500.0" />
+<use xlink:href="#Negros Oriental" x="100.0" y="500.0" />
+<use xlink:href="#Northern Samar" x="-100.0" y="700.0" />
+<use xlink:href="#Samar" x="100.0" y="700.0" />
+<use xlink:href="#Siquijor" x="-100.0" y="900.0" />
+<use xlink:href="#Southern Leyte" x="100.0" y="900.0" />
+</g>
+</svg>

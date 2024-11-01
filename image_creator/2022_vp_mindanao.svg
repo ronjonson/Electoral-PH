@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1200" height="200" viewBox="-600.0 -100.0 1200 200" font-family="Helvetica">
+<defs>
+<g id="Agusan del Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Agusan del</tspan><tspan x="0" dy="1em">Norte</tspan></text>
+</g>
+<g id="Agusan del Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Agusan del</tspan><tspan x="0" dy="1em">Sur</tspan></text>
+</g>
+<g id="Basilan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Basilan</text>
+</g>
+<g id="Cagayan de Oro" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Cagayan de</tspan><tspan x="0" dy="1em">Oro</tspan></text>
+</g>
+<g id="Camiguin" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Camiguin</text>
+</g>
+<g id="Cotabato" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Cotabato</text>
+</g>
+<g id="Davao City" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Davao City</text>
+</g>
+<g id="Davao Occidental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Davao</tspan><tspan x="0" dy="1em">Occidental</tspan></text>
+</g>
+<g id="Davao Oriental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Davao</tspan><tspan x="0" dy="1em">Oriental</tspan></text>
+</g>
+<g id="Davao de Oro" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Davao de</tspan><tspan x="0" dy="1em">Oro</tspan></text>
+</g>
+<g id="Davao del Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Davao del</tspan><tspan x="0" dy="1em">Norte</tspan></text>
+</g>
+<g id="Davao del Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Davao del</tspan><tspan x="0" dy="1em">Sur</tspan></text>
+</g>
+<g id="Dinagat Islands" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Dinagat</tspan><tspan x="0" dy="1em">Islands</tspan></text>
+</g>
+<g id="Iligan" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Iligan</text>
+</g>
+<g id="Lanao del Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Lanao del</tspan><tspan x="0" dy="1em">Norte</tspan></text>
+</g>
+<g id="Lanao del Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Lanao del</tspan><tspan x="0" dy="1em">Sur</tspan></text>
+</g>
+<g id="Maguindanao" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="30" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Maguindanao</text>
+</g>
+<g id="Misamis Occidental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Misamis</tspan><tspan x="0" dy="1em">Occidental</tspan></text>
+</g>
+<g id="Misamis Oriental" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Misamis</tspan><tspan x="0" dy="1em">Oriental</tspan></text>
+</g>
+<g id="Sarangani" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Sarangani</text>
+</g>
+<g id="South Cotabato" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">South</tspan><tspan x="0" dy="1em">Cotabato</tspan></text>
+</g>
+<g id="Sultan Kudarat" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Sultan</tspan><tspan x="0" dy="1em">Kudarat</tspan></text>
+</g>
+<g id="Sulu" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Sulu</text>
+</g>
+<g id="Surigao del Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Surigao</tspan><tspan x="0" dy="1em">del Norte</tspan></text>
+</g>
+<g id="Surigao del Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Surigao</tspan><tspan x="0" dy="1em">del Sur</tspan></text>
+</g>
+<g id="Tawi-Tawi" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">1</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle" dominant-baseline="central">Tawi-Tawi</text>
+</g>
+<g id="Zamboanga City" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Zamboanga</tspan><tspan x="0" dy="1em">City</tspan></text>
+</g>
+<g id="Zamboanga Sibugay" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Zamboanga</tspan><tspan x="0" dy="1em">Sibugay</tspan></text>
+</g>
+<g id="Zamboanga del Norte" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">3</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Zamboanga</tspan><tspan x="0" dy="1em">del Norte</tspan></text>
+</g>
+<g id="Zamboanga del Sur" transform="scale(1)">
+<rect x="-100" y="-100" width="200" height="200" fill="#B0E0E6" stroke="white" stroke-width="2" />
+<text x="0" y="35" font-size="50" fill="black" font-weight="bold" stroke="white" stroke-width="0.125" text-anchor="middle" dominant-baseline="central">2</text>
+<text x="0" y="-30" font-size="32" fill="black" stroke-width="0.01" stroke="white" text-anchor="middle"><tspan x="0" dy="0.0em">Zamboanga</tspan><tspan x="0" dy="1em">del Sur</tspan></text>
+</g>
+</defs>
+<g transform="scale(0.4)">
+<use xlink:href="#Agusan del Norte" x="-1400.0" y="-100.0" />
+<use xlink:href="#Agusan del Sur" x="-1200.0" y="-100.0" />
+<use xlink:href="#Basilan" x="-1000.0" y="-100.0" />
+<use xlink:href="#Cagayan de Oro" x="-800.0" y="-100.0" />
+<use xlink:href="#Camiguin" x="-600.0" y="-100.0" />
+<use xlink:href="#Cotabato" x="-400.0" y="-100.0" />
+<use xlink:href="#Davao City" x="-200.0" y="-100.0" />
+<use xlink:href="#Davao Occidental" x="0.0" y="-100.0" />
+<use xlink:href="#Davao Oriental" x="200.0" y="-100.0" />
+<use xlink:href="#Davao de Oro" x="400.0" y="-100.0" />
+<use xlink:href="#Davao del Norte" x="600.0" y="-100.0" />
+<use xlink:href="#Davao del Sur" x="800.0" y="-100.0" />
+<use xlink:href="#Dinagat Islands" x="1000.0" y="-100.0" />
+<use xlink:href="#Iligan" x="1200.0" y="-100.0" />
+<use xlink:href="#Lanao del Norte" x="1400.0" y="-100.0" />
+<use xlink:href="#Lanao del Sur" x="-1400.0" y="100.0" />
+<use xlink:href="#Maguindanao" x="-1200.0" y="100.0" />
+<use xlink:href="#Misamis Occidental" x="-1000.0" y="100.0" />
+<use xlink:href="#Misamis Oriental" x="-800.0" y="100.0" />
+<use xlink:href="#Sarangani" x="-600.0" y="100.0" />
+<use xlink:href="#South Cotabato" x="-400.0" y="100.0" />
+<use xlink:href="#Sultan Kudarat" x="-200.0" y="100.0" />
+<use xlink:href="#Sulu" x="0.0" y="100.0" />
+<use xlink:href="#Surigao del Norte" x="200.0" y="100.0" />
+<use xlink:href="#Surigao del Sur" x="400.0" y="100.0" />
+<use xlink:href="#Tawi-Tawi" x="600.0" y="100.0" />
+<use xlink:href="#Zamboanga City" x="800.0" y="100.0" />
+<use xlink:href="#Zamboanga Sibugay" x="1000.0" y="100.0" />
+<use xlink:href="#Zamboanga del Norte" x="1200.0" y="100.0" />
+<use xlink:href="#Zamboanga del Sur" x="1400.0" y="100.0" />
+</g>
+</svg>
