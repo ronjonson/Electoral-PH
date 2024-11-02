@@ -2,4 +2,10 @@ data
 .conda
 results/electoral/__pycache__
 results/electoral/migrations
-results/electoral/tempatetags/__pycache
+results/electoral/tempatetags/__pycache__
+.gitignore
+results/electoral/templatetags/__pycache__/electoral_extras.cpython-312.pyc
+results/results/__pycache__/__init__.cpython-312.pyc
+results/results/__pycache__/settings.cpython-312.pyc
+results/results/__pycache__/urls.cpython-312.pyc
+results/results/__pycache__/wsgi.cpython-312.pyc
